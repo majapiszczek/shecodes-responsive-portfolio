@@ -8,6 +8,11 @@
   .heading {
     font-size: 38px;
   }
+
+  .project-name,
+  p {
+    text-align: center;
+  }
 }
 
 body {
