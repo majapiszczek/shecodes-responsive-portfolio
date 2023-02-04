@@ -4,6 +4,12 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  .heading {
+    font-size: 38px;
+  }
+}
+
 body {
   margin-top: 100px;
 }
@@ -50,6 +56,9 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .secondary-link {
